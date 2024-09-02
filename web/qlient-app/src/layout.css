@@ -1,0 +1,69 @@
+.layout {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+   
+  }
+  
+  .side-nav {
+    width: 10%; /* 20% width for the side navigation */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for separation */
+  }
+  .main-content {
+    width: 100%;
+    text-align: center; /* centers inline-block elements */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #F5F8F7;
+    display: grid;
+        
+  }
+.row {
+  align-items: center; /* Align items vertically in the center */
+  padding: 5px 10px; /* Adjust padding to control height */
+  margin: 0; /* Remove any unnecessary margin */
+  line-height: 100px; /* Adjust line height to reduce row height */
+
+  background-color: #f1f1f1; /* Background color for visibility */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  font-size: 14px; /* Adjust font size to reduce overall height */
+ 
+}
+
+.box {    
+  display: inline-block;
+  width: 400px;
+  height: 150px;
+  background: linear-gradient(135deg, #dfe9f3, #ded5e6);
+  color: rgb(8, 5, 5);
+  margin: 10px;
+  line-height: 100px; /* centers text vertically */
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+ }
+
+ .label-text {
+  font-family:  Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  width: 540px;
+  text-align: left;
+  color: #3d4042;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15vh; /* Full viewport height */
+  text-align: center;
+}
+.text {
+  margin: 5px 0; /* Space between rows */
+}

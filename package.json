@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@fluentui/react-charting": "^5.22.3"
+  }
+}

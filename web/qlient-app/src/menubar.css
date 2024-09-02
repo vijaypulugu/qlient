@@ -1,0 +1,46 @@
+.menu-bar {
+    width: 100%; /* Full width of the screen */
+    height: 5vh;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    padding: 3px 3px; /* Padding inside the menu bar */
+    box-shadow: 0 2px 5px rgba(238, 232, 232, 0.1); /* Optional: adds a shadow for depth */
+    display: flex;
+    justify-content: space-between; /* Space between left and right items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .menu-left,
+  .menu-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger-menu {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #fff; /* White color for the bars */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .profile-pic {
+    width: 40px; /* Size of the profile picture */
+    height: 40px;
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover; /* Ensure the image covers the area */
+    cursor: pointer;
+  }
+ .app-name {
+    font-size: 24px; /* Larger font size for the application name */
+    font-weight: bold; /* Bold for emphasis */
+    letter-spacing: 1px; /* Slight letter spacing for a clean look */
+    color: #fff;
+    padding: 5px;
+  }
