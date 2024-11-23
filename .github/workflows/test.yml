@@ -1,13 +1,11 @@
 name: Azure Resource Deployer
 author: "Vijaya Kumar Pulugu"
 description: "This workflow deploys azure resource"
-    
-on: 
-  workflow_dispatch:
-    inputs:
-      your_name:
-      description: "Your name"
-      required: true,
+on: workflow_dispatch:
+        inputs:
+          your_name:
+              description: "Your name"
+              required: false,
 
 jobs:
   Beginning:
