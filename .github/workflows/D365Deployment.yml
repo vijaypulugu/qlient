@@ -5,4 +5,21 @@ jobs:
  Greeting:
   runs-on: self-hosted
   steps:
-   - run: echo "Hello world ${{github.actor}}"
+   - name: Export Managed Dynamics 365 Solution
+     uses: dynamics-tools/export-managed-solution@v1.3.0
+     with:
+    # The URL of your Microsoft Dynamics instance
+      dynamics-url: https://ctscsdemo.crm.dynamics.com
+    # The Application ID of your Azure AD application connected to your Microsoft Dynamics instance app user
+      application-id: 2a965bfa-1dbf-4b30-98da-183276dd4b4b
+    # The Application Secret of your Azure AD application connected to your Microsoft Dynamics instance app user
+      application-secret: vAU8Q~lPWzFY0r1YtYgfwLxFYp5DJxWNLT-DGazR
+    # The Tenant ID of your Azure AD application connected to your Microsoft Dynamics instance app user
+      tenant-id: bb15934e-b513-4dc7-bcf2-ccb2527e1c1b
+    # The name of the solution you want to export
+      solution-name: Test_Workstream
+    # The version number you want to assign to this version of the solution. If left blank, a new solution version will not be cloned.
+      version-number: 1.0.02
+          
+   
+
