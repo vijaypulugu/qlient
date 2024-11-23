@@ -1,8 +1,8 @@
 name: Azure Resource Deployer
-run-name: Dynamics 365 solutio Deployment
+run-name: Dynamics 365 Solution Deployment
 on: workflow_dispatch
 jobs:
  Greeting:
   runs-on: ubuntu-latest
   steps:
-   - run: echo "Hello world ${{hithub.actor}}"
+   - run: echo "Hello world ${{github.actor}}"
