@@ -1,0 +1,17 @@
+name: Azure Resource Deployer
+author: "Vijaya Kumar Pulugu"
+description: "This workflow deploys azure resource"
+    
+on: 
+  workflow_dispatch:
+    inputs:
+      your_name:
+      description: "Your name"
+      required: true,
+
+jobs:
+  Beginning:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "first" 
+    - run: echo "Hello World"
