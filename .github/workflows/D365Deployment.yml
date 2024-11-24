@@ -19,7 +19,7 @@ jobs:
     # The name of the solution you want to export
       solution-name: Test_Workstream
     # The version number you want to assign to this version of the solution. If left blank, a new solution version will not be cloned.
-      version-number: 1.0.02
+      version-number: 1.0.0.2
           
    
 
