@@ -3,7 +3,7 @@ run-name: Dynamics 365 Solution Deployment
 on: workflow_dispatch
 jobs:
  Greeting:
-  runs-on: self-hosted
+  runs-on: ubuntu-latest
   steps:
    - name: Export Managed Dynamics 365 Solution
      uses: dynamics-tools/export-managed-solution@v1.3.0
